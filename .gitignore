@@ -1,0 +1,8 @@
+client/vendors
+client/vendors/*
+
+server/node_modules
+server/node_modules/*
+
+.idea
+.idea/*
