@@ -3,6 +3,7 @@ Single page application, with node.js server, educational project
 
 **This project is not for production uses**
 Alex Volski 304589484
+Ben Drori 300081411
 
 ## Installation
 From the project directory:
