@@ -13,9 +13,6 @@ define(['jquery', 'text!./item.html', 'core/request', 'kendo'], function($, item
             rightView.empty();
             var currentItem = $(item).clone();
             currentItem.find("input#title").val(data.title);
-            currentItem.find("input#starting_date").val(data.starting_date);
-            currentItem.find("input#end_date").val(data.end_date);
-            currentItem.find("textarea#comments").html(data.comments);
             if(data.check)
                 currentItem.find("input#check").attr("checked", "checked");
 
